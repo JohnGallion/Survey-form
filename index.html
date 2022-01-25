@@ -5,11 +5,46 @@
     <meta charset="UTF-8>"
   </head>
 <body>
+  <style>
+    body {
+      background-image: url(https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60);
+    }
+    h1{
+      color: aliceblue;
+    }
+    p {
+      color: aliceblue;
+    }
+    label{
+      color: aliceblue;
+    }
+    </style>
   <h1 id=title>Restaurant Survey</h1>
-<p id=description>We would love to hear about your experience.Please take a second to fill out this survey.</p>
+<p id=description>We would love to hear about your experience. Please take a second to fill out this survey.</p>
   <form id=survey-form>
     <label id="name-label">Name:</label>
   <input type="text" id="name" name="Name" required><br><br>
     <label id="email-label">Email:</label>
   <input type="text" id="email" required><br><br>
     <label id="number-label">Phone number:</label>
+    <input type="text" id="number" required>
+  </form>
+    <div id= q1>
+      <p>Question 1: I enjoyed my overall experience.</p>
+      <label id="q1-disagree">Disagree</label>
+        <input type="radio" id="disagree">
+      <label id="q1-neutral">Neutral</label>
+        <input type="radio" id="neutral">
+      <label id="q1-agree">Agree</label>
+        <input type="radio" id="agree">
+    </div>
+    <div id= q2>
+      <p>Question 2: My experience was worth the price.</p>
+      <label id="q2-disagree">Disagree</label>
+        <input type="radio" id="disagree">
+      <label id="q2-neutral">Neutral</label>
+        <input type="radio" id="neutral">
+      <label id="q3-agree">Agree</label>
+        <input type="radio" id="agree">
+    </div>
+</body>
