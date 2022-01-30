@@ -18,6 +18,9 @@
     label{
       color: aliceblue;
     }
+    li{
+      color: aliceblue;
+    }
     </style>
   <h1 id=title>Restaurant Survey</h1>
 <p id=description>We would love to hear about your experience. Please take a second to fill out this survey.</p>
@@ -29,8 +32,10 @@
     <label id="number-label">Phone number:</label>
     <input type="text" id="number" required>
   </form>
+  <ol>
+    <li>
     <div id= q1>
-      <p>Question 1: I enjoyed my overall experience.</p>
+      <p>I enjoyed my overall experience.</p>
       <label id="q1-disagree">Disagree</label>
         <input type="radio" id="disagree">
       <label id="q1-neutral">Neutral</label>
@@ -38,8 +43,10 @@
       <label id="q1-agree">Agree</label>
         <input type="radio" id="agree">
     </div>
+    </li>
+    <li>
     <div id= q2>
-      <p>Question 2: My experience was worth the price.</p>
+      <p>My experience was worth the price.</p>
       <label id="q2-disagree">Disagree</label>
         <input type="radio" id="disagree">
       <label id="q2-neutral">Neutral</label>
@@ -47,4 +54,45 @@
       <label id="q3-agree">Agree</label>
         <input type="radio" id="agree">
     </div>
+    </li>
+    <li>
+    <div id=q3>
+      <p>My order I recieved was correct.</p>
+      <label id="q3-disagree">Disagree</label>
+        <input type="radio" id="disagree">
+      <label id="q3-neutral">Neutral</label>
+        <input type="radio" id="neutral">
+      <label id="q3-agree">Agree</label>
+        <input type="radio" id="agree">
+    </div>
+    </li>
+    <li>
+    <div id=q4>
+      <p>The server told me about todays specials in detail.</p>
+      <label id="q4-disagree">Disagree</label>
+        <input type="radio" id="disagree">
+      <label id="q4-neutral">Neutral</label>
+        <input type="radio" id="neutral">
+      <label id="q4-agree">Agree</label>
+        <input type="radio" id="agree">
+    </div>
+    </li>
+    <li>
+    <div id=q5>
+      <p>On a scale of 1-10, one being the least likely and ten being most likely, how likely are you to return to Restaurant.</p>
+      <label id=least-likely>Least likely</label>
+      <input type="radio" id="least">
+      <input type="radio" id="2">
+      <input type="radio" id="3">
+      <input type="radio" id="4">
+      <input type="radio" id="5">
+      <input type="radio" id="6">
+      <input type="radio" id="7">
+      <input type="radio" id="8">
+      <input type="radio" id="9">
+      <input type="radio" id="most">
+      <label id="most-likely">Most Likely</label>
+    </div>
+  </li>
+  </ol>
 </body>
